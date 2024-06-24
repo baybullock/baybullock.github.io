@@ -1,0 +1,12 @@
+nav_menu ul {list-style-type: none;}
+nav_menu ul li {float:left;}
+nav_menu ul li a {
+    text-align: center;
+    display: block;
+    width: 175px;
+    padding: 30px 30px 30px 30px;
+    text-decoration: none;
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+    border-right: 3px solid magenta;}
