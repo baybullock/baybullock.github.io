@@ -3,11 +3,18 @@
 #nav_menu ul li a {
     text-align: center;
     display: block;
-    width: 300px;
+    width: 350px;
     padding: 15px 15px 15px 15px;
     text-decoration: none;
     background-color: aqua;
     color: black;
     font-weight: bold;
-    border-right: 3px solid magenta;
-    border-left: 3px solid goldenrod;}
+    border: 3px double magenta;}
+
+a:link {color: magenta;
+    text-decoration: none; border: 3px double magenta;}
+    a:hover {color: goldenrod;
+    text-decoration: none;}
+    li > ul {display: none}
+    li:hover ul {display: block; position: absolute;background-color:aqua;margin:0; padding: 10px 10px 10px 10px;border: 3px double magenta; }
+    li:hover ul li a:link{display: block;margin-bottom:-30px;}
