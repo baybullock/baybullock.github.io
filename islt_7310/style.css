@@ -1,2 +1,7 @@
-h1 {color: #E50086}
+h1 {color: #F50083}
 h1 {text-align:center}
+h2 {text-align: center;}
+h2 {color: #F2D605}
+main p:first-child::first-letter {font-size: 150%;}
+.apa-reference {padding-left: 36pt;
+text-indent: -36pt;}
