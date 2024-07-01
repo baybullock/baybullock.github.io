@@ -1,7 +1,15 @@
-h1 {color: #F50083}
+h1 {color: #F50083;}
 h1 {text-align:center}
+h1 {-webkit-text-stroke-width: 1px; -webkit-text-stroke-color: purple;}
 h2 {text-align: center;}
 h2 {color: #F2D605}
+h2 {-webkit-text-stroke-width: 1px; -webkit-text-stroke-color: purple;}
+h3 {text-align: center;}
+h3 {color: #05D9F2;}
+h3 {-webkit-text-stroke-width: 1px; -webkit-text-stroke-color: purple;}
 main p:first-child::first-letter {font-size: 150%;}
 .apa-reference {padding-left: 36pt;
 text-indent: -36pt;}
+.wrapper {display:grid}
+blockquote {text-align: center;}
+blockquote {display: block; padding: 5px 5px 5px 5px; text-decoration: solid; color: black; background-color: #05D9F2;}
