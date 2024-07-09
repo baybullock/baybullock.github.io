@@ -1,15 +1,15 @@
-@font-face { font-family: "Prata", serif;
+font-face { font-family: "Prata", serif;
     font-weight: 400;
     font-style: normal;
   src: url(Prata-Regular.ttf);}
 
 h1 {color: #F50083;}
-h1 {text-align:center}
+h1 {text-align:center; font-family: "Prata";}
 h1 {-webkit-text-stroke-width: 1px; -webkit-text-stroke-color: purple;}
-h2 {text-align: center;}
+h2 {text-align: center; font-family: "Prata";}
 h2 {color: #F2D605}
 h2 {-webkit-text-stroke-width: 1px; -webkit-text-stroke-color: purple;}
-h3 {text-align: center;}
+h3 {text-align: center; font-family: "Prata";}
 h3 {color: #05D9F2;}
 h3 {-webkit-text-stroke-width: 1px; -webkit-text-stroke-color: purple;}
 main p:first-child::first-letter {font-size: 150%;}
@@ -55,3 +55,9 @@ blockquote {display: block; padding: 5px 5px 5px 5px; text-decoration: solid; co
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
   }
+
+  @media print {#header, #footer,#nav {display: none}
+*:before,
+*:after {color: black; font-style: serif;}
+}
+  @page {margin: 1in}
