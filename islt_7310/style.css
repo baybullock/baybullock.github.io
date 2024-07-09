@@ -61,3 +61,8 @@ blockquote {display: block; padding: 5px 5px 5px 5px; text-decoration: solid; co
 *:after {color: black; font-style: serif;}
 }
   @page {margin: 1in}
+
+.footer {background-image: url(StockCake-Vibrant\ Color\ Explosion_1720555175.jpg); 
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;}
