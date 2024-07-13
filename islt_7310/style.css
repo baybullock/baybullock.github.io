@@ -18,6 +18,7 @@ text-indent: -36pt;}
 .wrapper {display:grid}
 blockquote {text-align: center;}
 blockquote {display: block; padding: 5px 5px 5px 5px; text-decoration: solid; color: black; background-color: #05D9F2;}
+blockquote {border:rgb(123, 0, 255) 5px groove;}
 
 /* For mobile phones: */
 [class*="col-"] {
@@ -69,10 +70,18 @@ blockquote {display: block; padding: 5px 5px 5px 5px; text-decoration: solid; co
 
 .zoom {
   transition: transform .2s;
-  width: 50px;
-  height: 50px;
-  margin: 50px;
+  background-color: #05D9F2;
+  width: 65px;
+  height: 65px;
+  margin: 65px;
+  border: rgb(123, 0, 255) 5px groove;
 }
 .zoom:hover {
   transform: scale(1.5);
 }
+.font {color:white}
+
+.center {display: block;
+  margin-left: auto;
+margin-right: auto;
+width: 50%;}
