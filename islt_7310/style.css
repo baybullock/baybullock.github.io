@@ -64,7 +64,7 @@ blockquote {border:rgb(123, 0, 255) 5px groove;}
   @page {margin: 1in}
 
 .footer {background-image: url(StockCake-Vibrant\ Color\ Explosion_1720555175.jpg); 
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;}
 
@@ -83,5 +83,4 @@ blockquote {border:rgb(123, 0, 255) 5px groove;}
 
 .center {display: block;
   margin-left: auto;
-margin-right: auto;
-width: 50%;}
+margin-right: auto;}
