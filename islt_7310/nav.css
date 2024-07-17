@@ -9,10 +9,10 @@
     background-color: #05D9F2;
     color: black;
     font-weight: bold;
-    border: 3px double #F50083;}
+    border: 3px double blue;}
 
-a:link {color:  #F50083;
-    text-decoration: none; border: 3px double #F50083;}
+a:link {color:  blue;
+    text-decoration: none; border: 3px double blue;}
     a:hover {color: #F2D605;
     text-decoration: none;}
     li > ul {display: none}
