@@ -1,7 +1,6 @@
 font-face { font-family: "Prata", serif;
     font-weight: 400;
-    font-style: normal;
-  src: url(Prata-Regular.ttf);}
+    font-style: normal;}
 
 h1 {color: #F50083;}
 h1 {text-align:center; font-family: "Prata";}
@@ -59,11 +58,11 @@ blockquote {border:rgb(123, 0, 255) 5px groove;}
 
   @media print {#header, #footer,#nav {display: none}
 *:before,
-*:after {color: black; font-style: serif;}
+*:after {color: black; font-style: normal;}
 }
   @page {margin: 1in}
 
-.footer {background-image: url(StockCake-Vibrant\ Color\ Explosion_1720555175.jpg); 
+.footer {background-image: url(StockCake-Vibrant\_Color\_Explosion_1720555175.jpg); 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;}
