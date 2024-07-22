@@ -1,10 +1,13 @@
-#nav_menu ul {list-style-type: none; display: flex; flex-direction: auto; position: center; size: cover;}
+#nav_menu ul {list-style-type: none; display: flex; flex-direction: auto; size: cover;}
 #nav_menu ul li {float:none;}
 #nav_menu ul li a {
+    margin: auto;
     text-align: center;
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 210px;
-    padding:0;
+    padding: 10px 10px 10px 10px;
     text-decoration: none;
     background-color: #05D9F2;
     color: black;
